@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/postAd"
+            android:title="Post Ad" />
+        <item
+            android:id="@+id/proposals"
+            android:title="Propsals" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/rate"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
